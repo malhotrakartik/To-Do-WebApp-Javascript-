@@ -14,7 +14,10 @@ body{
 .ticket-container{
     min-height: 88vh;
     position: relative;
-    background-color: white;
+    background-color: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     padding: 2rem;
 }
 .filter-container,.add-delete-container{
@@ -167,4 +170,45 @@ body{
 }
 .placeholder{
     color: gray;
+}
+.ticket{
+    height: 9rem;
+    width: 16rem;
+    background-color: white;
+    /* border: 1px solid black; */
+}
+.ticket.active{
+    box-shadow: 0 0 5px 1px;
+}
+.ticket-color{
+    height: 6%;
+    width: 100%;
+
+}
+.ticket-id{
+    height: 15%;
+    width: 100%;
+    color: gray;
+    padding: 3%;
+}
+.task{
+    width: 100%;
+    height: 79%;
+    padding: 3%;
+    
+}
+.ticket-color-yellow{
+    background-color: yellow;
+}
+.ticket-color-pink{
+    background-color: pink;
+}
+.ticket-color-blue{
+    background-color: blue;
+}
+.ticket-color-green{
+    background-color: green;
+}
+.filter.active{
+    background-color: black;
 }
