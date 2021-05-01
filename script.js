@@ -130,6 +130,8 @@ function addTicket(taskTyper, e) {
         })
         
         // tc.innerHTML = tc.innerHTML + ticket;
+        // tc.innerHTML = tc.innerHTML + ticket;
+
         let allTaskData = localStorage.getItem("allTasks");
         if(allTaskData == null) {
             let data = [{"taskId" : id, "task" : task, "selectedPriority" : selectedPriority}];
